@@ -37,7 +37,7 @@ graph TD;
     A[Start & Setup] --> B[Open Chat App via pyautogui];
     B --> C[Copy Chat History];
     C --> D[Analyze Last Message Sender];
-    D --> E{Is it "Rohan Das"?};
+    D --> E{Is it Rohan Das?};
     E -- Yes --> F[Send to OpenAI API];
     F --> G[Generate Roast];
     G --> H[Paste & Send Reply];
