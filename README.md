@@ -32,7 +32,7 @@ Naruto does all this using **OpenAI’s GPT model** along with some Python magic
 
 ## 🧠 How It Works (Workflow)
 
-```mermaid
+''' mermaid
 graph TD;
     A[Start & Setup] --> B[Open Chat App via pyautogui];
     B --> C[Copy Chat History];
@@ -42,3 +42,4 @@ graph TD;
     F --> G[Generate Roast];
     G --> H[Paste & Send Reply];
     E -- No --> I[Wait & Re-check];
+'''
